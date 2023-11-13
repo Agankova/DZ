@@ -14,5 +14,5 @@ def my_func(date_to_prove, value=None):
 
 parser = argparse.ArgumentParser()
 parser.add_argument('date', type=lambda s: datetime.datetime.strptime(s, '%d-%m-%Y'),)
-args = parser.parse_args(['78-11-2023'])
+args = parser.parse_args(['08-11-2023'])
 print(args.date)
